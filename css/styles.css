@@ -11,16 +11,16 @@ ol {
   list-style-type: none;
 }
 .logo {
-  color: var(--NAVY-BLUE, #2e2f42);
-  font-family: Raleway;
+  color: var(--IRIS, #4d5ae5);
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 21px;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
-.logo-web {
-  color: var(--IRIS, #4d5ae5);
+.logo-studio {
+  color: var(--NAVY-BLUE, #2e2f42);
 }
 .nav-link {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -30,8 +30,11 @@ ol {
 }
 .nav-link:focus,
 .nav-link:hover {
-  color: #4d5ae5;
+  color: #404bbf;
   text-decoration: underline;
+}
+.address {
+  font-style: normal;
 }
 .address-link {
   color: currentColor;
@@ -41,11 +44,10 @@ ol {
 }
 .address-link:focus,
 .address-link:hover {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 .section-order {
   background-color: var(--NAVY-BLUE, #2e2f42);
-  height: 600px;
 }
 .section-order-title {
   color: var(--WHITE, #fff);
@@ -53,28 +55,21 @@ ol {
   font-family: Roboto;
   font-size: 56px;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 1.07;
   letter-spacing: 1.12px;
 }
 .section-order-button {
-  /* display: inline-flex; */
-  display: block;
-  margin: 0 auto;
-  padding: 16px 32px;
-  /* align-items: flex-start; */
-  gap: 10px;
-  border-radius: 4px;
   background: var(--IRIS, #4d5ae5);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
   color: var(--WHITE, #fff);
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.64px;
 }
-.section-order-button:hover {
+.section-order-button:hover,
+.section-order-button:focus {
   background: #404bbf;
 }
 .section-title {
@@ -82,8 +77,8 @@ ol {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 40px;
-  letter-spacing: 0.72px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 .section-title-little {
@@ -93,11 +88,25 @@ ol {
   line-height: 24px;
   letter-spacing: 0.4px;
 }
-footer {
+.section-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.section-team {
+  background-color: #f4f4fd;
+}
+.section-team-list {
+  background-color: #ffffff;
+}
+.footer {
   background: var(--NAVY-BLUE, #2e2f42);
   color: var(--CLOUD, #f4f4fd);
-  height: 312px;
 }
-footer .logo {
-  color: var(--CLOUD, #f4f4fd);
+
+.footer .logo {
+  color: #4d5ae5;
+}
+.footer .logo-studio {
+  color: #f4f4fd;
 }
